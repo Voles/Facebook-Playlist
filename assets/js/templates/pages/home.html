@@ -1,0 +1,55 @@
+<h2>Hi there!</h2>
+
+<div class="alert alert-error" id="login-details">
+    <strong>Something went wrong.</strong> Make sure your login-details are correct.
+</div>
+
+<div class="alert alert-error" id="facebook-api">
+    Please wait just a litte, until the Facebook API is fully loaded.
+</div>
+
+<div class="alert alert-success" id="logged-out">
+    You're succesfully logged out from Facebook.
+</div>
+
+<p>
+	You just landed on a little experiment I've set up to test my <a href="http://backbonejs.org/" target="_blank">Backbone</a>-skills.
+</p>
+
+<blockquote><em>Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.</em>
+	<small>via <a href="http://www.backbonejs.org/" target="_blank">Backbonejs.org</a></small>
+</blockquote>
+
+<p>
+	Because I wanted to spend my time coding and not designing, all of the interface-elements are styled using the <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>.
+</p>
+
+<h3>What is this?</h3>
+<p>
+	After you've logged in to Facebook, the application fetches the latest YouTube-video's from your stream and creates a playlist. It's very easy to jump to next- &amp; previous songs or play / pause the current song.
+</p>
+<p>
+	And all without refreshing your page! :-)
+</p>
+
+<div class="logged-in">
+	<h3>Go, go, go!</h3>
+	<p>
+   		You're already logged in to Facebook.
+	</p>
+
+	<p>
+		<a href="#" class="btn btn-danger logout-button">Logout from <strong>Facebook</strong></a>
+	</p>
+</div>
+
+<div class="logged-out">
+	<h3>Go, go, go!</h3>
+	<p>
+   		To be able to use this application, you have to login with Facebook. It does <span class="label label-default">not</span> save any of your personal data.
+	</p>
+
+	<p>
+		<a href="#" class="btn btn-primary login-button">Login with <strong>Facebook</strong></a>
+	</p>
+</div>
